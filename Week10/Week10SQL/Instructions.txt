@@ -1,0 +1,197 @@
+I want to print the entire table
+>> Option 1
+
+
+I want to print only some entries, just the models that start "Sky"
+>>Option 2
+>>Enter "Sky"
+
+I want to add an entry, the Air-Bike 103 by JordanLakeAero, year 2022 for $6995.00, with a cruise speed of 55 knots, and a range of 115 nautical miles.
+>>Option 3
+>>Enter Air-Bike 103
+>>Enter JordanLakeAero
+>>Enter 2022 
+>>Enter 6995.00
+>>Enter 55 
+>>Enter 115 
+
+I want to update the Skyhawk in my hangar, to year 1970, Price $20,000.00, Cruise speed 115 knots, range 417 nautical miles
+>>Option 4
+>>Enter Skyhawk
+>>Enter 3 to select column "Year"
+>>Enter 1970. The updated entry is displayed after each edit.
+>>Enter 4, then 20000.00
+>>Enter 5, then 115
+>>Enter 6, then 417
+>>Enter 0 to exit
+
+I want to delete the Citation Longitude
+>>Option 5
+>>Enter Citation Longitude. Verify that the results that show are what you want to delete
+>>Enter DELETE to confirm
+
+
+*******************************************************************************************************************************
+OUTPUT LOG:
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Archer DX                || Piper               || 2022 ||$    450,000.00||    123    ||    848  ||
+Bonanza G36              || Beechcraft          || 2022 ||$    925,000.00||    174    ||    920  ||
+Caravan                  || Cessna              || 2022 ||$  2,355,000.00||    186    ||  1,070  ||
+Carbon Cub SS            || Cubcrafters         || 2020 ||$    265,000.00||     96    ||    450  ||
+Citation Longitude       || Cessna              || 2022 ||$ 29,900,000.00||    483    ||  3,500  ||
+Citation M2              || Cessna              || 2022 ||$  5,850,000.00||    404    ||  1,550  ||
+King Air 360             || Beechcraft          || 2022 ||$  7,650,000.00||    312    ||  1,806  ||
+M350                     || Piper               || 2022 ||$  1,195,000.00||    213    ||  1,343  ||
+Seneca                   || Piper               || 2022 ||$  1,061,000.00||    200    ||    828  ||
+Skyhawk                  || Cessna              || 2022 ||$    415,000.00||    124    ||    640  ||
+Skylane                  || Cessna              || 2022 ||$    530,000.00||    145    ||    915  ||
+***************************************************************************************************
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+2
+Enter a search String to look up the model(s)
+Sky
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 2022 ||$    415,000.00||    124    ||    640  ||
+Skylane                  || Cessna              || 2022 ||$    530,000.00||    145    ||    915  ||
+***************************************************************************************************
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+3
+Model Name:
+Air-Bike 103
+Manufacturer
+JordanLakeAero
+Year:
+2022
+Price:
+6995.00
+Cruise Speed (kn):
+55
+Range (nm):
+115
+Entries Added: 1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Air-Bike 103             || JordanLakeAero      || 2022 ||$      6,995.00||     55    ||    115  ||
+***************************************************************************************************
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+4
+Update Some - enter a search string to look up the model(s)
+Skyhawk
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 2022 ||$    415,000.00||    124    ||    640  ||
+***************************************************************************************************
+Enter Column # to update, or 0 to exit
+3
+Enter new value:
+1970
+Entries Updated: 1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 1970 ||$    415,000.00||    124    ||    640  ||
+***************************************************************************************************
+Enter Column # to update, or 0 to exit
+4
+Enter new value:
+20000
+Entries Updated: 1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 1970 ||$     20,000.00||    124    ||    640  ||
+***************************************************************************************************
+Enter Column # to update, or 0 to exit
+5
+Enter new value:
+115
+Entries Updated: 1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 1970 ||$     20,000.00||    115    ||    640  ||
+***************************************************************************************************
+Enter Column # to update, or 0 to exit
+6
+Enter new value:
+417
+Entries Updated: 1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Skyhawk                  || Cessna              || 1970 ||$     20,000.00||    115    ||    417  ||
+***************************************************************************************************
+Enter Column # to update, or 0 to exit
+0
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+5
+Delete Some - enter a search string to look up the model(s)
+Citation Longitude
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Citation Longitude       || Cessna              || 2022 ||$ 29,900,000.00||    483    ||  3,500  ||
+***************************************************************************************************
+Type DELETE to confirm delete, else enter to return to main menu
+DELETE
+Entries Deleted: 1
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+1
+Model                    || Manufacturer        || Year ||     Price     ||Cruise (kn)||Range(nm)||
+===================================================================================================
+Air-Bike 103             || JordanLakeAero      || 2022 ||$      6,995.00||     55    ||    115  ||
+Archer DX                || Piper               || 2022 ||$    450,000.00||    123    ||    848  ||
+Bonanza G36              || Beechcraft          || 2022 ||$    925,000.00||    174    ||    920  ||
+Caravan                  || Cessna              || 2022 ||$  2,355,000.00||    186    ||  1,070  ||
+Carbon Cub SS            || Cubcrafters         || 2020 ||$    265,000.00||     96    ||    450  ||
+Citation M2              || Cessna              || 2022 ||$  5,850,000.00||    404    ||  1,550  ||
+King Air 360             || Beechcraft          || 2022 ||$  7,650,000.00||    312    ||  1,806  ||
+M350                     || Piper               || 2022 ||$  1,195,000.00||    213    ||  1,343  ||
+Seneca                   || Piper               || 2022 ||$  1,061,000.00||    200    ||    828  ||
+Skyhawk                  || Cessna              || 1970 ||$     20,000.00||    115    ||    417  ||
+Skylane                  || Cessna              || 2022 ||$    530,000.00||    145    ||    915  ||
+***************************************************************************************************
+Pick an Option
+[1] Print All
+[2] Print Some
+[3] Add One
+[4] Update Some
+[5] Delete Some
+[0] Quit
+0
+Have a good day!!
