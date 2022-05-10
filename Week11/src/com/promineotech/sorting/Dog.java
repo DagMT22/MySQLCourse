@@ -41,7 +41,9 @@ public class Dog {
 			);	
 
 	public static List<Dog> getDogs() {
+		dogs.forEach( element -> System.out.println(element));
 		return new ArrayList<>(dogs);
 	}
+	
 
 }
